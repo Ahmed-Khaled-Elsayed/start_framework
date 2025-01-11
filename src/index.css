@@ -1,0 +1,165 @@
+.myNav{
+    background-color: #2C3E50 !important;
+    padding: 20px 0;
+}
+
+.footer
+{
+    background-color: #2C3E50 !important;
+    color: white !important;
+}
+
+.footer .icons .item
+{
+    width:40px;
+    height:40px;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 50% ;
+    margin: 0 5px ;
+}
+
+.copywrite
+{
+    background-color: #1A252F;
+    color: white;
+}
+
+.home
+{
+    height: 600px;
+    background-color: #1ABC9C;
+}
+.home .avatar
+{
+    width: 17%;
+    margin-bottom: 30px;
+}
+.star::after
+{
+    content: "";
+    width: 75px;
+    height: 4px;
+    background-color: white;
+    top: 50%;
+    left: 200%;
+    position: absolute;
+}
+.star::before
+{
+    content: "";
+    width: 75px;
+    height: 4px;
+    background-color: white;
+    top: 50%;
+    right: 200%;
+    position: absolute;
+}
+
+
+.about
+{
+    height: 600px;
+    background-color: #1ABC9C;
+}
+.contact
+{
+    height: 600px;
+    /* background-color: #1ABC9C; */
+}
+
+.contact .star i ,.contact span , .portfolio .star i
+{
+    color:#2C3E50 !important
+}
+.contact .star::after , .portfolio .star::after
+{
+    content: "";
+    width: 75px;
+    height: 4px;
+    background-color: #2C3E50;
+    top: 50%;
+    left: 200%;
+    position: absolute;
+}
+.contact .star::before ,.portfolio .star::before
+{
+    content: "";
+    width: 75px;
+    height: 4px;
+    background-color: #2C3E50;
+    top: 50%;
+    right: 200%;
+    position: absolute;
+}
+
+.contact .field input
+{
+    
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    /* outline: none; */
+   
+    
+}
+.contact .field input:focus
+{
+    box-shadow: none ;
+}
+.contact button
+{
+    background-color: #1ABC9C !important;
+    color: white !important;
+}
+
+.portfolio .card .layer
+{
+    background-color: #1abc9ce1;
+    opacity: 0;
+    transition: all 0.6s;
+    cursor: pointer;
+}
+.portfolio .card .layer .plus
+{
+    font-size: 80px;
+}
+
+.portfolio .card:hover .layer
+{
+    opacity: 1;
+}
+
+.active
+{
+    background-color: #1ABC9C;
+    border-radius: 5px;
+}
+
+.w-40
+{
+    width: 40%;
+}
+
+
+
+
+@media screen and (max-width: 768px)
+{
+    .home .avatar
+    {
+        width: 60%;
+    }
+    .contact .myform
+    {
+        width: 95% !important;
+    }
+    
+}
+@media screen and (max-width: 992px)
+{
+    .footer .foot
+    {
+        padding-bottom: 50px ;
+    }
+}
